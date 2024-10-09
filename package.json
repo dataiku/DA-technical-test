@@ -1,0 +1,15 @@
+{
+  "name": "dataiku-marvel-card-game",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.21.0",
+    "got": "^14.4.2",
+    "node-fetch": "^3.3.2",
+    "uuid": "^10.0.0"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "demo": "node --no-warnings client/client.js"
+  }
+}
